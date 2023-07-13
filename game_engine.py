@@ -50,3 +50,9 @@ def char_is_validity(input_str):
         return input_str
     else:
         raise Exception("Ошибка ввода, попробуйте ввести одну строчную букву русского алфавита")
+
+
+def game_win(count_unknown_letters, word):
+    if not count_unknown_letters:
+        print(f'You won, take a pie from the shelf! Hidden word was {word}')
+    return count_unknown_letters

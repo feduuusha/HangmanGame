@@ -20,4 +20,4 @@ while True:
     count_mistakes += mistake(count_unknown_letters, hidden_word)
     count_unknown_letters = hidden_word.count('*')
     draw(count_mistakes)
-    game_is_run = game_end(count_mistakes)
+    game_is_run = min(game_end(count_mistakes), game_win(count_unknown_letters, word))
