@@ -1,4 +1,3 @@
-
 max_len_words = 8
 min_len_words = 5
 gallows_states = [[
@@ -77,5 +76,5 @@ gallows_states = [[
     '       |      │',
     '      / \     │',
     '              │',
-    '      ________│______'],
-    []]
+    '      ________│______']
+    ]
